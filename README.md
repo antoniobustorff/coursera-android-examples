@@ -62,7 +62,7 @@ Source Code for Android Course Example Applications
     *   UIViewPager
     *   UIWebView
 
-### Week 4
+### Week 5
 
 *   Threads, AsyncTasks and Handlers
     *   ThreadingAsyncTask
