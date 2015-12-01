@@ -1,0 +1,4 @@
+include ':HelloAndroid'
+project(':HelloAndroid').projectDir = new File(settingsDir, '../catalog/HelloAndroid')
+include ':TheAnswer'
+project(':TheAnswer').projectDir = new File(settingsDir, '../catalog/TheAnswer')

@@ -1,0 +1,18 @@
+include ':HelloAndroidWithLogin'
+project(':HelloAndroidWithLogin').projectDir = new File(settingsDir, '../catalog/HelloAndroidWithLogin')
+include ':PermissionExampleBoom'
+project(':PermissionExampleBoom').projectDir = new File(settingsDir, '../catalog/PermissionExampleBoom')
+include ':PermissionExampleBoomUser'
+project(':PermissionExampleBoomUser').projectDir = new File(settingsDir, '../catalog/PermissionExampleBoomUser')
+include ':FragmentDynamicLayout'
+project(':FragmentDynamicLayout').projectDir = new File(settingsDir, '../catalog/FragmentDynamicLayout')
+include ':FragmentDynamicLayoutWithActionBar'
+project(':FragmentDynamicLayoutWithActionBar').projectDir = new File(settingsDir, '../catalog/FragmentDynamicLayoutWithActionBar')
+include ':FragmentProgrammaticLayout'
+project(':FragmentProgrammaticLayout').projectDir = new File(settingsDir, '../catalog/FragmentProgrammaticLayout')
+include ':FragmentQuoteViewerWithActivity'
+project(':FragmentQuoteViewerWithActivity').projectDir = new File(settingsDir, '../catalog/FragmentQuoteViewerWithActivity')
+include ':FragmentStaticConfigLayout'
+project(':FragmentStaticConfigLayout').projectDir = new File(settingsDir, '../catalog/FragmentStaticConfigLayout')
+include ':FragmentStaticLayout'
+project(':FragmentStaticLayout').projectDir = new File(settingsDir, '../catalog/FragmentStaticLayout')

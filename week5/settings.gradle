@@ -1,0 +1,14 @@
+include ':ThreadingAsyncTask'
+project(':ThreadingAsyncTask').projectDir = new File(settingsDir, '../catalog/ThreadingAsyncTask')
+include ':ThreadingHandlerMessages'
+project(':ThreadingHandlerMessages').projectDir = new File(settingsDir, '../catalog/ThreadingHandlerMessages')
+include ':ThreadingHandlerRunnable'
+project(':ThreadingHandlerRunnable').projectDir = new File(settingsDir, '../catalog/ThreadingHandlerRunnable')
+include ':ThreadingNoThreading'
+project(':ThreadingNoThreading').projectDir = new File(settingsDir, '../catalog/ThreadingNoThreading')
+include ':ThreadingRunOnUIThread'
+project(':ThreadingRunOnUIThread').projectDir = new File(settingsDir, '../catalog/ThreadingRunOnUIThread')
+include ':ThreadingSimple'
+project(':ThreadingSimple').projectDir = new File(settingsDir, '../catalog/ThreadingSimple')
+include ':ThreadingViewPost'
+project(':ThreadingViewPost').projectDir = new File(settingsDir, '../catalog/ThreadingViewPost')

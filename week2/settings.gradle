@@ -1,0 +1,4 @@
+include ':MapLocation'
+project(':MapLocation').projectDir = new File(settingsDir, '../catalog/MapLocation')
+include ':MapLocationFromContacts'
+project(':MapLocationFromContacts').projectDir = new File(settingsDir, '../catalog/MapLocationFromContacts')

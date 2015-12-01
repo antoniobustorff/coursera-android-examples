@@ -1,0 +1,46 @@
+include ':HelloAndroidWithMenus'
+project(':HelloAndroidWithMenus').projectDir = new File(settingsDir, '../catalog/HelloAndroidWithMenus')
+include ':UIAlertDialog'
+project(':UIAlertDialog').projectDir = new File(settingsDir, '../catalog/UIAlertDialog')
+include ':UIAutoComplete'
+project(':UIAutoComplete').projectDir = new File(settingsDir, '../catalog/UIAutoComplete')
+include ':UIButton'
+project(':UIButton').projectDir = new File(settingsDir, '../catalog/UIButton')
+include ':UICheckBox'
+project(':UICheckBox').projectDir = new File(settingsDir, '../catalog/UICheckBox')
+include ':UIDatePicker'
+project(':UIDatePicker').projectDir = new File(settingsDir, '../catalog/UIDatePicker')
+include ':UIDatePickerFragment'
+project(':UIDatePickerFragment').projectDir = new File(settingsDir, '../catalog/UIDatePickerFragment')
+include ':UIGallery'
+project(':UIGallery').projectDir = new File(settingsDir, '../catalog/UIGallery')
+include ':UIGridLayout'
+project(':UIGridLayout').projectDir = new File(settingsDir, '../catalog/UIGridLayout')
+include ':UILinearLayout'
+project(':UILinearLayout').projectDir = new File(settingsDir, '../catalog/UILinearLayout')
+include ':UIListView'
+project(':UIListView').projectDir = new File(settingsDir, '../catalog/UIListView')
+include ':UIRadioGroup'
+project(':UIRadioGroup').projectDir = new File(settingsDir, '../catalog/UIRadioGroup')
+include ':UIRatingsBar'
+project(':UIRatingsBar').projectDir = new File(settingsDir, '../catalog/UIRatingsBar')
+include ':UIRelativeLayout'
+project(':UIRelativeLayout').projectDir = new File(settingsDir, '../catalog/UIRelativeLayout')
+include ':UISampler'
+project(':UISampler').projectDir = new File(settingsDir, '../catalog/UISampler')
+include ':UISpinner'
+project(':UISpinner').projectDir = new File(settingsDir, '../catalog/UISpinner')
+include ':UITabLayout'
+project(':UITabLayout').projectDir = new File(settingsDir, '../catalog/UITabLayout')
+include ':UITableLayout'
+project(':UITableLayout').projectDir = new File(settingsDir, '../catalog/UITableLayout')
+include ':UITimePicker'
+project(':UITimePicker').projectDir = new File(settingsDir, '../catalog/UITimePicker')
+include ':UITimePickerFragment'
+project(':UITimePickerFragment').projectDir = new File(settingsDir, '../catalog/UITimePickerFragment')
+include ':UIToggleButton'
+project(':UIToggleButton').projectDir = new File(settingsDir, '../catalog/UIToggleButton')
+include ':UIViewPager'
+project(':UIViewPager').projectDir = new File(settingsDir, '../catalog/UIViewPager')
+include ':UIWebView'
+project(':UIWebView').projectDir = new File(settingsDir, '../catalog/UIWebView')
