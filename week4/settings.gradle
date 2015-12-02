@@ -16,6 +16,8 @@ include ':UIGallery'
 project(':UIGallery').projectDir = new File(settingsDir, '../catalog/UIGallery')
 include ':UIGridLayout'
 project(':UIGridLayout').projectDir = new File(settingsDir, '../catalog/UIGridLayout')
+include ':UIGoogleMaps'
+project(':UIGoogleMaps').projectDir = new File(settingsDir, '../catalog/UIGoogleMaps')
 include ':UILinearLayout'
 project(':UILinearLayout').projectDir = new File(settingsDir, '../catalog/UILinearLayout')
 include ':UIListView'
