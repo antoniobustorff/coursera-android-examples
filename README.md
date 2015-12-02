@@ -13,7 +13,7 @@ Source Code for Android Course Example Applications
 ### Week 2
 
 *   Application Fundamentals
-    *   __mising__ AppFundamentalsVideoSourceExamples (**NOTE**: This is just a set of different source code files, not a complete Android project)
+    *   AppFundamentalsVideoSourceExamples (**NOTE**: This is just a set of different source code files, not a complete Android project)
 *   The Activity Class
     *   MapLocation
     *   MapLocationFromContacts
@@ -36,7 +36,6 @@ Source Code for Android Course Example Applications
 ### Week 4
 
 *   User Interface Classes
-    *   __mising__ google-play-services_lib **NOTE**: This is a library project used by some of the sample applications)
     *   HelloAndroidWithMenus
     *   UIAlertDialog
     *   UIAutoComplete
@@ -45,7 +44,7 @@ Source Code for Android Course Example Applications
     *   UIDatePicker
     *   UIDatePickerFragment
     *   UIGallery
-    *   __mising__ UIGoogleMaps
+    *   UIGoogleMaps
     *   UIGridLayout
     *   UILinearLayout
     *   UIListView
