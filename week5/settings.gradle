@@ -12,3 +12,13 @@ include ':ThreadingSimple'
 project(':ThreadingSimple').projectDir = new File(settingsDir, '../catalog/ThreadingSimple')
 include ':ThreadingViewPost'
 project(':ThreadingViewPost').projectDir = new File(settingsDir, '../catalog/ThreadingViewPost')
+include ':NetworkingSockets'
+project(':NetworkingSockets').projectDir = new File(settingsDir, '../catalog/NetworkingSockets')
+include ':NetworkingURL'
+project(':NetworkingURL').projectDir = new File(settingsDir, '../catalog/NetworkingURL')
+include ':NetworkingAndroidHttpClient'
+project(':NetworkingAndroidHttpClient').projectDir = new File(settingsDir, '../catalog/NetworkingAndroidHttpClient')
+include ':NetworkingAndroidHttpClientJSON'
+project(':NetworkingAndroidHttpClientJSON').projectDir = new File(settingsDir, '../catalog/NetworkingAndroidHttpClientJSON')
+include ':NetworkingAndroidHttpClientXML'
+project(':NetworkingAndroidHttpClientXML').projectDir = new File(settingsDir, '../catalog/NetworkingAndroidHttpClientXML')
