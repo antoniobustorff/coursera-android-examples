@@ -19,7 +19,7 @@ public class NotificationStatusBarActivity extends Activity {
 
 	// Notification Count 
 	private int mNotificationCount;
-	
+
 	// Notification Text Elements
 	private final CharSequence tickerText = "This is a Really, Really, Super Long Notification Message!";
 	private final CharSequence contentTitle = "Notification";
@@ -43,8 +43,9 @@ public class NotificationStatusBarActivity extends Activity {
 
 		mNotificationIntent = new Intent(getApplicationContext(),
 				NotificationSubActivity.class);
+		mNotificationIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 		mContentIntent = PendingIntent.getActivity(getApplicationContext(), 0,
-				mNotificationIntent, Intent.FLAG_ACTIVITY_NEW_TASK);
+				mNotificationIntent,PendingIntent.FLAG_UPDATE_CURRENT);
 
 		final Button button = (Button) findViewById(R.id.notify_button);
 		button.setOnClickListener(new OnClickListener() {
