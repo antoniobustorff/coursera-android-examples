@@ -1,23 +1,19 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 19
-    buildToolsVersion '19.1.0'
+    compileSdkVersion 17
+    buildToolsVersion "19.1.0"
+
     defaultConfig {
-        applicationId "course.examples.ui.viewpager"
+        applicationId "course.examples.notification.toastwithcustomview"
         minSdkVersion 14
         targetSdkVersion 19
     }
+
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
-    productFlavors {
-    }
-}
-
-dependencies {
-    compile 'com.android.support:support-v13:19.0.+'
 }

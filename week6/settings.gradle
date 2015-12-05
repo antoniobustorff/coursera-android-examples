@@ -1,0 +1,22 @@
+include ':NotificationStatusBar'
+project(':NotificationStatusBar').projectDir = new File(settingsDir, '../catalog/NotificationStatusBar')
+include ':NotificationStatusBarWithCustomView'
+project(':NotificationStatusBarWithCustomView').projectDir = new File(settingsDir, '../catalog/NotificationStatusBarWithCustomView')
+include ':NotificationToast'
+project(':NotificationToast').projectDir = new File(settingsDir, '../catalog/NotificationToast')
+include ':NotificationToastWithCustomView'
+project(':NotificationToastWithCustomView').projectDir = new File(settingsDir, '../catalog/NotificationToastWithCustomView')
+include ':BcastRecCompBcast'
+project(':BcastRecCompBcast').projectDir = new File(settingsDir, '../catalog/BcastRecCompBcast')
+include ':BcastRecCompOrdBcast'
+project(':BcastRecCompOrdBcast').projectDir = new File(settingsDir, '../catalog/BcastRecCompOrdBcast')
+include ':BcastRecCompOrdBcastWithResRec'
+project(':BcastRecCompOrdBcastWithResRec').projectDir = new File(settingsDir, '../catalog/BcastRecCompOrdBcastWithResRec')
+include ':BcastRecSinBcastStatReg'
+project(':BcastRecSinBcastStatReg').projectDir = new File(settingsDir, '../catalog/BcastRecSinBcastStatReg')
+include ':BcastRecStickyInt'
+project(':BcastRecStickyInt').projectDir = new File(settingsDir, '../catalog/BcastRecStickyInt')
+include ':BcastRecSinBcastDynReg'
+project(':BcastRecSinBcastDynReg').projectDir = new File(settingsDir, '../catalog/BcastRecSinBcastDynReg')
+include ':AlarmCreateActivity'
+project(':AlarmCreateActivity').projectDir = new File(settingsDir, '../catalog/AlarmCreateActivity')

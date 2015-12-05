@@ -77,3 +77,20 @@ Source Code for Android Course Example Applications
     *   NetworkingAndroidHttpClientXML
     *   NetworkingSockets
     *   NetworkingURL
+
+### Week 6
+
+* User Notifications
+    * NotificationStatusBar
+    * NotificationStatusBarWithCustomView
+    * NotificationToast
+    * NotificationToastWithCustomView
+* The BroadcastReceiver Class
+    * BcastRecCompBcast:
+    * BcastRecCompOrdBcast:
+    * BcastRecCompOrdBcastWithResRec:
+    * BcastRecSinBcastDynReg:
+    * BcastRecSinBcastStatReg:
+    * BcastRecStickyInt:
+* Alarms 
+    * AlarmCreateActivity
