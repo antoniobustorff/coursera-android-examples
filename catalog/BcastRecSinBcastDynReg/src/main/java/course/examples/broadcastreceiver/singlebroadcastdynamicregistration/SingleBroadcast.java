@@ -31,7 +31,9 @@ public class SingleBroadcast extends Activity {
 		button.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				mBroadcastMgr.sendBroadcast(new Intent(CUSTOM_INTENT));
+				Intent intent = new Intent(CUSTOM_INTENT);
+				intent.addFlags(Intent.FLAG_DEBUG_LOG_RESOLUTION);
+				mBroadcastMgr.sendBroadcast(intent);
 			}
 		});
 	}
